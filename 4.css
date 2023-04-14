@@ -1,4 +1,48 @@
-#titre{
+.titre{
+    background-image: url('./Tp_note-MORIN-Vincent-TMIM-Elliott/TP noté 1 - Groupes 2, 6 et 11/Question 4/showybg.jpg');
     text-align: center;
     color: violet;
+    font-size: 50px;
+}
+
+.row{
+    display: flex;
+}
+
+#navigateur{
+    color: green;
+    background-color: #eeeeee;
+    width: 100px;
+    height: 250px;
+}
+
+#navigateur p{
+    margin-left: 20px;
+}
+
+#image_nav{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#partdroite{
+    background-color: #BFEE90;
+}
+
+.text-justify{
+    color: green;
+    margin-left: 15px;
+}
+
+.text-left{
+    color: violet;
+    font-size: large;
+    margin-left: 5px;
+}
+
+#footer{
+    font-size: small;
+    color: green;
+    text-align: center;
+    background-color: #cccccc;
 }
