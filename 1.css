@@ -1,6 +1,15 @@
 .container1 {
     display: flex;
-    flex-wrap: wrap 400px;
+    flex-wrap: 400px;
+    width: 400px;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.container2 {
+    display: flex;
+    flex-wrap: 400px;
+    width: 400px;
     gap: 0px;
     justify-content: center;
     align-items: center;
@@ -17,8 +26,7 @@
 
 .bleu {
     background-color: blue;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .vert {
