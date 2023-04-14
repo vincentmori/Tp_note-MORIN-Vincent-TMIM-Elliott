@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Ex 5</title>
+	<style>
+		#box1{
+			width: 100px;
+			height: 100px;
+			background-color: whitesmoke;
+			display: inline-block;
+			text-align: center;
+			line-height: 100px;
+			cursor: pointer;
+		}
+        #box2{
+			width: 100px;
+			height: 100px;
+			background-color: whitesmoke;
+			display: inline-block;
+			text-align: center;
+			line-height: 100px;
+			cursor: pointer;
+		}
+        
+        #box3{
+            width: 100px;
+			height: 100px;
+			background-color: whitesmoke;
+			display: inline-block;
+			text-align: center;
+			line-height: 100px;
+			cursor: pointer;
+		}
+
+		#resultat {
+			background-color: whitesmoke;
+		}
+	</style>
+    <!--Bibliothèque JQuery-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+        //Clique sur la box 1 et affiche le message « J’aime le Web dynamique ! » avec la fct alert()
+		$(document).ready(function() {
+			$("#box1").click(function() {
+				alert("J'aime le Web dynamique !");
+			});
+            //Clique sur la box 2 et affiche les dimensions height et width et couleur de fond
+			$("#box2").click(function() {
+				let width = $(this).width();
+				let height = $(this).height();
+				let couleur = $(this).css("background-color");
+                // Affichage des dimensions et de la couleur de fond dans le résultat
+				$("#resultat").html("Dimensions: " + width + "x" + height + "<br>Couleur de fond: " + couleur);
+			});
+            //Clique sur la box 3 et change la couleur en bleu
+			$("#box3").click(function() {
+				$(this).css("background-color", "blue");
+			});
+		});
+	</script>
+</head>
+<body> 
+    <!--Création des 3 boîtes et de la partie résultat-->
+	<div id="box1">A</div> 
+	<div id="box2">B</div> 
+	<div id="box3">C</div> 
+	<p id="resultat"></p> 
+</body>
+</html>

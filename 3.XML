@@ -1,0 +1,41 @@
+<films>
+    <film>
+        <titre>Le Parrain</titre>
+        <date_sortie>1972-03-15</date_sortie>
+        <duree>175</duree>
+        <realisateur>Francis Ford Coppola</realisateur>
+        <acteurs>
+            <acteur>Marlon Brando</acteur>
+            <acteur>Al Pacino</acteur>
+            <acteur>James Caan</acteur>
+            <acteur>Richard S. Castellano</acteur>
+        </acteurs>
+        <genre>Drame, Policier</genre>
+        <nationalite>Américain</nationalite>
+        <note_presse>4.6</note_presse>
+        <note_spectateurs>4.4</note_spectateurs>
+        <synopsis>
+        En 1945, à New York,...
+    </synopsis>
+    </film>
+
+    <film>
+        <titre>La Grande Bellezza</titre>
+        <date_sortie>2013-05-21</date_sortie>
+        <duree>142</duree>
+        <realisateur>Paolo Sorrentino</realisateur>
+        <acteurs>
+            <acteur>Toni Servillo</acteur>
+            <acteur>Carlo Verdone</acteur>
+            <acteur>Sabrina Ferilli</acteur>
+            <acteur>Carlo Buccirosso</acteur>
+        </acteurs>
+        <genre>Drame</genre>
+        <nationalite>Italien, Français</nationalite>
+        <note_presse>3.8</note_presse>
+        <note_spectateurs>3.6</note_spectateurs>
+        <synopsis>
+        Rome, été...
+    </synopsis>
+    </film>
+</films>

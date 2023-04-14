@@ -1,0 +1,30 @@
+.container1 {
+    display: flex;
+    flex-wrap: wrap 400px;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.carré {
+    width: 200px;
+    height: 200px;
+}
+
+.rouge {
+    background-color: red;
+}
+
+.bleu {
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.vert {
+    background-color: green;
+}
+
+.jaune {
+    background-color: yellow;
+}
