@@ -4,82 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulaire</title><!--Titre de la page-->
-
-    <style type="text/css">
-        #form{
-            width: 400px;
-            height: 400px;
-            border: 2px black;
-        }
-        #prenom {
-            margin-left: 30px;
-        }
-
-        #nom {
-            margin-left: 30px;
-        }
-
-        #date_naissance {
-            margin-left: 30px;
-        }
-
-        #sexe {
-            margin-left: 30px;
-        }
-    </style>
 </head>
 
 <body>
-    <div id="Form">
-        <p>Créer un profil</p>
-        <form>
-            <table><!--On crée une table-->
-                <tr>
-                    <td>Prénom: </td>
-                </tr>
-                <tr>
-                    <td><input type="text" id="prenom"></td>
-                </tr>
-                <tr>
-                    <td>Nom: </td>
-                </tr>
-                <tr>
-                    <td><input type="text" id="nom"></td>
-                </tr>
-                <tr>
-                    <td>Date de Naissance: </td>
-                </tr>
-                <tr>
-                    <td><input type="date" id="date_naissance"></td>
-                </tr>
-                <tr>
-                    <td>Sexe: </td>
-                </tr>
-                <tr>
-                    <td id="sexe">
-                        <input type="radio" name="sexe">Homme<!--Name identique car on peut en sélectionner qu'un-->
-                        <input type="radio" name="sexe">Femme
-                    </td>
-                </tr>
-                <tr>
-                    <td>Selectionnez tous les langages de script que vous connaissez: </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox" name="langage1" />Javascript<!--Name différent car l'utilisateur peut en sélectionner plusieurs-->
-                        <input type="checkbox" name="langage2" />Perl
-                        <input type="checkbox" name="langage3" />PHP
-                        <input type="checkbox" name="langage4" />Ruby
-                    </td>
-                </tr>
-                <tr>
-                    <td><button type="button">Sauvegarder</button></td>
-                    <!--Bouton pour sauvegarder qui ne fait rien quand on appuie dessus-->
-                </tr>
-            </table>
-        </form>
-    </div>
-
+    <p>Créer un profil</p>
+    <form>
+        <table><!--On crée une table-->
+            <tr>
+                <td>Prénom: </td>
+            </tr>
+            <tr>
+                <td><input type="text" id="prenom"></td>
+            </tr>
+            <tr>
+                <td>Nom: </td>
+            </tr>
+            <tr>
+                <td><input type="text" id="nom"></td>
+            </tr>
+            <tr>
+                <td>Date de Naissance: </td>
+            </tr>
+            <tr>
+                <td><input type="date" id="date_naissance"></td>
+            </tr>
+            <tr>
+                <td>Sexe: </td>
+            </tr>
+            <tr>
+                <td id="sexe">
+                    <input type="radio" name="sexe">Homme<!--Name identique car on peut en sélectionner qu'un-->
+                    <input type="radio" name="sexe">Femme
+                </td>
+            </tr>
+            <tr>
+                <td>Selectionnez tous les langages de script que vous connaissez: </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox"
+                        name="langage1" />Javascript<!--Name différent car l'utilisateur peut en sélectionner plusieurs-->
+                    <input type="checkbox" name="langage2" />Perl
+                    <input type="checkbox" name="langage3" />PHP
+                    <input type="checkbox" name="langage4" />Ruby
+                </td>
+            </tr>
+            <tr>
+                <td><button type="button">Sauvegarder</button></td>
+                <!--Bouton pour sauvegarder qui ne fait rien quand on appuie dessus-->
+            </tr>
+        </table>
+    </form>
 </body>
 
 </html>
